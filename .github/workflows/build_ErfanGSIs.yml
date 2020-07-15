@@ -42,6 +42,10 @@ jobs:
               cd ErfanGSIs
               sudo wget -O file.zip $ROM_URL
               sudo chmod 0777 dynamic.sh
+             
+       - name: Setting up ErfanGSI requirements
+         run: |
+              cd ErfanGSIs
               sudo bash setup.sh
               sudo bash ./dynamic.sh $ROM_NAME file.zip
               sudo ./make.sh system $ROM_NAME Aonly out
