@@ -47,7 +47,7 @@ jobs:
          run: |
               cd ErfanGSIs
               sudo bash setup.sh
-              sudo bash ./dynamic.sh $ROM_NAME file.zip
+              sudo ./dynamic.sh $ROM_NAME file.zip
               sudo ./make.sh system $ROM_NAME Aonly out
 
        - name: Print build info
