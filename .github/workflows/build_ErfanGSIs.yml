@@ -34,7 +34,7 @@ jobs:
             sudo apt-get install wget
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/qrovic/ErfanGSIs -b master
+         run: git clone --recurse-submodules https://github.com/adamayyad/ErfanGSIs 
        
        - name: Setting up ErfanGSI requirements
          run: |
