@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dl.google.com/developers/android/rvc/images/factory/walleye-rpb2.200611.009-factory-97f69fa0.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: Pixel
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_13.W.37_OTA_037_all_2006051449_b4f440aac7f14183.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: OxygenOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
