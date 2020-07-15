@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7TOxygen_13.W.05_OTA_005_all_2006051455_85c8edc958924887.zip
+  ROM_URL: http://tdrive.manofuranium.workers.dev/miui_UMI_20.7.9_80ff22de5e_11.0.zip
   ROM_NAME: OxygenOS
   ZIP_NAME: OxygenOS
   TZ: Asia/Kolkata
@@ -50,7 +50,7 @@ jobs:
               sudo chmod 0777 dynamic.sh
               sudo bash setup.sh
               sudo ./dynamic.sh $ROM_NAME file.zip
-              sudo ./make.sh system $ROM_NAME Aonly out
+              sudo ./make.sh system MIUI Aonly out
 
        - name: Print build info
          run: |
