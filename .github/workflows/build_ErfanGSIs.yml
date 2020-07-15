@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://beta.revtechs.me/RevOS-MIUI/RedmiNote7/ROS-MIUI_RedmiNote7_20.7.15_v12-10.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: RevOS
+  ROM_URL: http://romdownload.nubia.com/%E5%8A%AA%E6%AF%94%E4%BA%9APlay/V2.19/NX651J-update.zip
+  ROM_NAME: Nubia
+  ZIP_NAME: Nubia
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
