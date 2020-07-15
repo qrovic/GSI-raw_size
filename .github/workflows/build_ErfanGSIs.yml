@@ -45,7 +45,6 @@ jobs:
        - name: Setting up ErfanGSI requirements
          run: |
               cd ErfanGSIs
-              sudo chmod 0777 merge.sh
               sudo bash setup.sh
               sudo ./makedynamic.sh $ROM_NAME file.zip
               sudo ./make.sh system $ROM_NAME Aonly output
