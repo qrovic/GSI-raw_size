@@ -45,7 +45,7 @@ jobs:
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
-              sudo aria2c $ROM_LINK
+              sudo aria2c $ROM_URL
               mv *.zip file.zip
               sudo chmod 0777 dynamic.sh
               sudo bash setup.sh
