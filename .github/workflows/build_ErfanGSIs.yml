@@ -14,11 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dl.google.com/developers/android/rvc/images/factory/walleye-rpb2.200611.009-factory-97f69fa0.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: Pixel
-  ANDROID_VERSION: 10
-  Date: 20200716
+  ROM_URL: http://romdownload.nubia.com/%E5%8A%AA%E6%AF%94%E4%BA%9APlay/V2.19/NX651J-update.zip
+  ROM_NAME: Nubia
+  ZIP_NAME: Nubia
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
@@ -33,42 +31,19 @@ jobs:
          run: |
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget
-            sudo apt-get install wget
-            sudo apt-get install p7zip-full
-            sudo apt-get update -y
-            sudo apt-get install -y simg2img
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/adamayyad/ErfanGSIs 
+         run: git clone --recurse-submodules https://github.com/qrovic/ErfanGSIs -b master
        
        - name: Setting up ErfanGSI requirements
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
-              sudo aria2c $ROM_URL
-              mv *.zip file.zip
-              sudo chmod 0777 makedynamic.sh
               sudo bash setup.sh
-              sudo ./makedynamic.sh $ROM_NAME file.zip
-              sudo ./make.sh system $ROM_NAME Aonly output
-
+       
+       - name: Download Stock Rom & Generate GSI
+         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
+             
        - name: Print build info
          run: |
               cat ErfanGSIs/output/*-Aonly-*.txt
-
-       - name: Zip Aonly and upload
-         run: |
-              mkdir final
-              sudo chmod -R 777 ErfanGSIs/output
-              cd ErfanGSIs/output 
-              7z a $ZIP_NAME-Aonly-$ANDROID_VERSION-$Date-ruigsi.7z *-Aonly-*.img
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer bit $ZIP_NAME-Aonly-$ANDROID_VERSION-$Date-ruigsi.7z
-
-       - name: Zip AB and upload
-         run: |
-              cd ErfanGSIs/output
-              7z a $ZIP_NAME-AB-$ANDROID_VERSION-$Date-ruigsi.7z *-AB-*.img
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer bit $ZIP_NAME-AB-$ANDROID_VERSION-$Date-ruigsi.7z
-            
