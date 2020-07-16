@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/miui_UMI_20.7.9_80ff22de5e_11.0.zip
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus7TProOxygen_13.W.05_OTA_005_all_2006051500_0fa9456df17f4816.zip
   ROM_NAME: OxygenOS
   ZIP_NAME: OxygenOS
   TZ: Asia/Kolkata
