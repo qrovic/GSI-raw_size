@@ -53,12 +53,12 @@ jobs:
               sudo chmod 0777 dynamic.sh
               sudo bash setup.sh
               sudo ./dynamic.sh $ROM_NAME file.zip
-              sudo ./make.sh system $ROM_NAME Aonly out
-              sudo ./make.sh system $ROM_NAME AB out
+              sudo ./make.sh system $ROM_NAME Aonly output
+              sudo ./make.sh system $ROM_NAME AB output
 
        - name: Print build info
          run: |
-              cat ErfanGSIs/out/*-Aonly-*.txt
+              cat ErfanGSIs/output/*-Aonly-*.txt
 
        - name: Zip Aonly and upload
          run: |
