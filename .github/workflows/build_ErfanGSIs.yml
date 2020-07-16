@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7TProOxygen_13.W.05_OTA_005_all_2006051500_0fa9456df17f4816.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://dl.google.com/developers/android/rvc/images/factory/walleye-rpb2.200611.009-factory-97f69fa0.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
   ANDROID_VERSION: 10
   Date: 20200716
   TZ: Asia/Kolkata
