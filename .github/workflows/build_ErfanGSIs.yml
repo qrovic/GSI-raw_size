@@ -50,7 +50,8 @@ jobs:
               sudo chmod 0777 dynamic.sh
               sudo bash setup.sh
               sudo ./dynamic.sh $ROM_NAME file.zip
-              sudo ./make.sh system MIUI Aonly out
+              sudo ./make.sh system $ROM_NAME Aonly out
+              sudo ./make.sh system $ROM_NAME AB out
 
        - name: Print build info
          run: |
