@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2040_11_OTA_0230_all_xdNcURB51oIc.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: http://tdrive.manofuranium.workers.dev/H-ROM_S20_PORT_V2.0.zip
+  ROM_NAME: OneUI
+  ZIP_NAME: OneUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
