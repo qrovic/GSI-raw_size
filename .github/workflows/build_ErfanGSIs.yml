@@ -62,12 +62,14 @@ jobs:
 
        - name: Zip Aonly and upload
          run: |
+              cd ErfanGSIs/output 
               7z a $ZIP_NAME-Aonly-$ANDROID_VERSION-$Date-ruigsi.7z *-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit $ZIP_NAME-Aonly-$ANDROID_VERSION-$Date-ruigsi.7z
 
        - name: Zip AB and upload
          run: |
+              cd ErfanGSIs/output
               7z a $ZIP_NAME-AB-$ANDROID_VERSION-$Date-ruigsi.7z *-AB-*.img
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit $ZIP_NAME-AB-$ANDROID_VERSION-$Date-ruigsi.7z
