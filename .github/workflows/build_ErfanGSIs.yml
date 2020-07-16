@@ -39,7 +39,7 @@ jobs:
             sudo apt-get install -y simg2img
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/qrovic/ErfanGSIs 
+         run: git clone --recurse-submodules https://github.com/adamayyad/ErfanGSIs 
        
        - name: Setting up ErfanGSI requirements
          run: |
@@ -47,9 +47,9 @@ jobs:
               cd ErfanGSIs
               sudo aria2c $ROM_URL
               mv *.zip file.zip
-              sudo chmod 0777 merge.sh
+              sudo chmod 0777 makedynamic.sh
               sudo bash setup.sh
-              sudo ./merge.sh $ROM_NAME file.zip
+              sudo ./makedynamic.sh $ROM_NAME file.zip
               sudo ./make.sh system $ROM_NAME Aonly output
 
        - name: Print build info
