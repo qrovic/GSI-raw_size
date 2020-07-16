@@ -62,6 +62,8 @@ jobs:
 
        - name: Zip Aonly and upload
          run: |
+              mkdir final
+              sudo chmod -R 777 ErfanGSIs/output
               cd ErfanGSIs/output 
               7z a $ZIP_NAME-Aonly-$ANDROID_VERSION-$Date-ruigsi.7z *-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
