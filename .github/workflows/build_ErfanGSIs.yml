@@ -17,6 +17,8 @@ env:
   ROM_URL: https://oxygenos.oneplus.net/OnePlus7TProOxygen_13.W.05_OTA_005_all_2006051500_0fa9456df17f4816.zip
   ROM_NAME: OxygenOS
   ZIP_NAME: OxygenOS
+  ANDROID_VERSION: 10
+  Date: 20200716
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
@@ -32,6 +34,7 @@ jobs:
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget
             sudo apt-get install wget
+            sudo apt-get install p7zip-full
             sudo apt-get update -y
             sudo apt-get install -y simg2img
        
@@ -56,5 +59,16 @@ jobs:
        - name: Print build info
          run: |
               cat ErfanGSIs/out/*-Aonly-*.txt
-         
+
+       - name: Zip Aonly and upload
+         run: |
+              7z a $ZIP_NAME-Aonly-$ANDROID_VERSION-$Date-ruigsi.7z *-Aonly-*.img
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer bit $ZIP_NAME-Aonly-$ANDROID_VERSION-$Date-ruigsi.7z
+
+       - name: Zip AB and upload
+         run: |
+              7z a $ZIP_NAME-AB-$ANDROID_VERSION-$Date-ruigsi.7z *-AB-*.img
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer bit $ZIP_NAME-AB-$ANDROID_VERSION-$Date-ruigsi.7z
             
