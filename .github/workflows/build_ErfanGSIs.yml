@@ -45,16 +45,12 @@ jobs:
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
-              sudo wget -O file.zip $ROM_URL
-             
-       - name: Setting up ErfanGSI requireme
-         run: |
-              cd ErfanGSIs
+              sudo aria2c $ROM_LINK
+              mv *.zip file.zip
               sudo chmod 0777 dynamic.sh
               sudo bash setup.sh
               sudo ./dynamic.sh $ROM_NAME file.zip
               sudo ./make.sh system $ROM_NAME Aonly output
-              sudo ./make.sh system $ROM_NAME AB output
 
        - name: Print build info
          run: |
