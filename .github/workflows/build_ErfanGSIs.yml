@@ -39,6 +39,7 @@ jobs:
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
+              git pull --ff-only
               sudo bash setup.sh
        
        - name: Download Stock Rom & Generate GSI
