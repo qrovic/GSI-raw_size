@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://cfhcable.dl.sourceforge.net/project/rmx1851//custom_recovery_StockROM_flashable_files/RMX1851_flashable_C02_realmeUI.zip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: http://tdrive.manofuranium.workers.dev/20190515102538872/366800B1540GEN_RU_V1000_V2.0(SD%2520card%2520software)/update.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Generic
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
