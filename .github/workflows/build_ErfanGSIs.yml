@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.ztedevices.com/support/product/548/201905151016652/sd/20190515102538872.zip
-  ROM_NAME: Generic
-  ZIP_NAME: Mifavor
+  ROM_URL: https://cfhcable.dl.sourceforge.net/project/rmx1851//custom_recovery_StockROM_flashable_files/RMX1851_flashable_C02_realmeUI.zip
+  ROM_NAME: ColorOS
+  ZIP_NAME: ColorOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
