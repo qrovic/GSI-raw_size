@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1730F_EX_A_6.10.2-update-full_1579330406.zip
-  ROM_NAME: Generic
-  ZIP_NAME: Generic
+  ROM_URL: http://tdrive.manofuranium.workers.dev/xiaomi.eu_multi_HMNote7Pro_20.7.16_v12-10.zip
+  ROM_NAME: RevOS
+  ZIP_NAME: RevOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
