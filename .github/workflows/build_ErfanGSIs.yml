@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/PD1730F_EX_A_6.10.2-update-full_1579330406.zip
-  ROM_NAME: Funtouch
-  ZIP_NAME: Funtouch
+  ROM_URL: http://tdrive.manofuranium.workers.dev/RUI_F07_Decrypt_Rmx1801-1807@dahee1179.zip
+  ROM_NAME: ColorOS
+  ZIP_NAME: ColorOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
@@ -33,7 +33,7 @@ jobs:
             sudo -E apt-get -qq install git openjdk-8-jdk wget
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/qrovic/ErfanGSIs -b master
+         run: git clone --recurse-submodules https://github.com/adamayyad/ErfanGSIs -b master
        
        - name: Setting up ErfanGSI requirements
          run: |
