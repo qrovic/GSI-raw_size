@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/RUI_F07_Decrypt_Rmx1801-1807@dahee1179.zip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: http://download.ztedevices.com/support/product/548/201905151016652/sd/20190515102538872.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Mifavor
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
