@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/H-ROM_S20_PORT_V2.0.zip
-  ROM_NAME: OneUI
-  ZIP_NAME: OneUI
+  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1730F_EX_A_6.10.2-update-full_1579330406.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Generic
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
