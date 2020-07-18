@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1730F_EX_A_6.10.2-update-full_1579330406.zip
+  ROM_URL: http://tdrive.manofuranium.workers.dev/PD1806_A_A1907.11.02_user_ard10.0-update-full_1563175141.zip
   ROM_NAME: Generic
   ZIP_NAME: Funtouch
   TZ: Asia/Kolkata
