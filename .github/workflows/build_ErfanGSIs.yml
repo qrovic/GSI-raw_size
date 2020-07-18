@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v620a_v620aopen/7a0ac992c942ffa6fa7a366c53f5a1b801394933.zip
+  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1730F_EX_A_6.10.2-update-full_1579330406.zip
   ROM_NAME: Generic
-  ZIP_NAME: VOS
+  ZIP_NAME: FuntouchOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
