@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/Vivo_V9_PD1730F_EX_A_1.11.5_LA.UM.6.6.r1-03400-89XX.0_MSM8953_QPST.zip
+  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1730F_EX_A_6.10.2-update-full_1579330406.zip
   ROM_NAME: Generic
   ZIP_NAME: Funtouch
   TZ: Asia/Kolkata
