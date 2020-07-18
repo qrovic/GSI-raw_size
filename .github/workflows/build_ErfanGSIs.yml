@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://cfhcable.dl.sourceforge.net/project/rmx1851//custom_recovery_StockROM_flashable_files/RMX1851_flashable_C02_realmeUI.zip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v620a_v620aopen/7a0ac992c942ffa6fa7a366c53f5a1b801394933.zip
+  ROM_NAME: VOS
+  ZIP_NAME: VOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
