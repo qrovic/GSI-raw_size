@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v620a_v620aopen/7a0ac992c942ffa6fa7a366c53f5a1b801394933.zip
-  ROM_NAME: VOS
+  ROM_NAME: Generic
   ZIP_NAME: VOS
   TZ: Asia/Kolkata
   MIR: bit
