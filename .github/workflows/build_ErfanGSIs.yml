@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1730F_EX_A_6.10.2-update-full_1579330406.zip
-  ROM_NAME: Generic
-  ZIP_NAME: FuntouchOS
+  ROM_URL: https://dl.google.com/developers/android/rvc/images/factory/walleye-rpb2.200611.009-factory-97f69fa0.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
