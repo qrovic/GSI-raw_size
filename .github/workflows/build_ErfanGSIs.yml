@@ -48,4 +48,5 @@ jobs:
 
        - name: Print build info
          run: |
+              ls ErfanGSIs/output
               cat ErfanGSIs/output/*-AB-*.txt
