@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: https://android.googleapis.com/packages/ota-api/nokia_b2nsprout_onyx00ww/5cee5d357ef514301a4e8def6f81ad0947a353fe.zip
   ROM_NAME: Generic
-  ZIP_NAME: Generic
+  ZIP_NAME: Nokia
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
