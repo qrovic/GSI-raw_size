@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://android.googleapis.com/packages/ota-api/nokia_b2nsprout_onyx00ww/5cee5d357ef514301a4e8def6f81ad0947a353fe.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: NOKIA
+  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1917_Q/CPH1917EX_11_OTA_2280_all_uMEvuaVFvSQe.ozip
+  ROM_NAME: Generic:ColorOS
+  ZIP_NAME: ColorOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
