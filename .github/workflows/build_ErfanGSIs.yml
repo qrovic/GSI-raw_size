@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1806_A_A1907.11.02_user_ard10.0-update-full_1563175141.zip
+  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v620a_v620aopen/aab50f2d2b30d4c531c60bff95ed21ff5581fe1d.zip
   ROM_NAME: Generic
-  ZIP_NAME: Funtouch
+  ZIP_NAME: VOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
