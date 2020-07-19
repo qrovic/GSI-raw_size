@@ -43,7 +43,8 @@ jobs:
        
        - name: Download Stock Rom & Generate GSI
          run: |
-              sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
+              cd ErfanGSIs
+              sudo url2GSI.sh $ROM_URL $ROM_NAME
               sudo mv *Aonly*.img lolol.img
               ls
              
