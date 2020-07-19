@@ -15,8 +15,8 @@ on:
     
 env:
   ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1919/CPH1919EX_11_OTA_0200_all_9RJTMdBIoIjS.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_NAME: VOS
+  ZIP_NAME: VOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
