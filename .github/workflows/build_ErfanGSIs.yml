@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/PD1806_A_A1907.11.02_user_ard10.0-update-full_1563175141.zip
+  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1806_A_A1907.11.02_user_ard10.0-update-full_1563175141.zip
   ROM_NAME: Generic
   ZIP_NAME: Funtouch
   TZ: Asia/Kolkata
@@ -45,10 +45,7 @@ jobs:
          run: |
               cd ErfanGSIs
               sudo ./url2GSI.sh $ROM_URL $ROM_NAME
-              cd output
-              sudo mv $ROM_NAME-Aonly-9-20200719-ruigsi.img lolol.img
-              ls
-             
+
        - name: Print build info
          run: |
               cat ErfanGSIs/output/*-Aonly-*.txt
