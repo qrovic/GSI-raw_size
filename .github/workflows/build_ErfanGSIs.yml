@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1806_A_A1907.11.02_user_ard10.0-update-full_1563175141.zip
-  ROM_NAME: Generic
-  ZIP_NAME: Funtouch
+  ROM_URL: http://rom.download.nubia.com/Europe/NX629J/NX629J_Z69_EN_WPJ0O_V210.zip
+  ROM_NAME: Nubia
+  ZIP_NAME: Nubia
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
