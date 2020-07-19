@@ -45,7 +45,7 @@ jobs:
          run: |
               cd ErfanGSIs
               sudo ./url2GSI.sh $ROM_URL $ROM_NAME
-              sudo mv *Aonly*.img lolol.img
+              sudo mv $ROM_NAME-Aonly-9-20200718-ruigsi.img lolol.img
               ls
              
        - name: Print build info
