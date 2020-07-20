@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1955F_EX_A_1.14.3-BWDATA-update-full_1591872035.zip
-  ROM_NAME: Generic:Funtouch
-  ZIP_NAME: Funtouch
+  ROM_URL: http://tdrive.manofuranium.workers.dev/TIM-A605FNXXS5CTF5-20200702213921.zip
+  ROM_NAME: OneUI
+  ZIP_NAME: OneUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
