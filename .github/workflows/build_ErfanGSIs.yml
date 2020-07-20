@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1806_A_A1907.11.02_user_ard10.0-update-full_1563175141.zip
+  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1955F_EX_A_1.14.3-BWDATA-update-full_1591872035.zip
   ROM_NAME: Generic:Funtouch
   ZIP_NAME: Funtouch
   TZ: Asia/Kolkata
