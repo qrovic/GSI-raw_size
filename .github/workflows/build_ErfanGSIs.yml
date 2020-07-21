@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1917_Q/CPH1917EX_11_OTA_2280_all_uMEvuaVFvSQe.ozip
+  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1931/CPH1931EX_11_OTA_0550_all_TB8Kut39rI6h.ozip
   ROM_NAME: ColorOS
   ZIP_NAME: ColorOS
   TZ: Asia/Kolkata
