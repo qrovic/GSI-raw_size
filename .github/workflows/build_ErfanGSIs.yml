@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1931/CPH1931EX_11_OTA_0550_all_TB8Kut39rI6h.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.7.21/cn_daily/20200721002012/64687c0e/update.zip
+  ROM_NAME: Flyme
+  ZIP_NAME: Flyme
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
