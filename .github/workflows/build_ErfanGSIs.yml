@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1934F_EX_A_1.9.32-update-full_1593788018.zip
   ROM_NAME: Generic:Funtouch
-  ZIP_NAME: Generic:Funtouch
+  ZIP_NAME: Funtouch
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
