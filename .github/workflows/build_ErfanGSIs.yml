@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s_Pro/8.20.7.21/cn_daily/20200721104004/04895e9f/update.zip
-  ROM_NAME: Generic:Flyme
-  ZIP_NAME: Flyme
+  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l79031/L79031_ROW_OPEN_USER_Q00114.1a_Q_ROW_12.0.099_ST_200721_qpst.zip
+  ROM_NAME: ZUI
+  ZIP_NAME: ZUI12
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
