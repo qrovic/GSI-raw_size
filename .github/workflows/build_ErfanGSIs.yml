@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1934F_EX_A_1.9.32-update-full_1593788018.zip
-  ROM_NAME: Generic:Funtouch
-  ZIP_NAME: Funtouch
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s_Pro/8.20.7.21/cn_daily/20200721104004/04895e9f/update.zip
+  ROM_NAME: Generic:Flyme
+  ZIP_NAME: Flyme
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
@@ -44,7 +44,6 @@ jobs:
        - name: Download Stock Rom & Generate GSI
          run: |
               cd ErfanGSIs
-              sudo cp -r roms/9/ColorOS roms/10
               sudo ./url2GSI.sh $ROM_URL $ROM_NAME
 
        - name: Print build info
