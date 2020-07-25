@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.9.0.QJWMIXM/miui_CURTANAGlobal_V11.0.9.0.QJWMIXM_c063fd7fb1_10.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI
+  ROM_URL: https://dl.google.com/developers/android/rvc/images/factory/walleye-rpb2.200611.012-factory-7e10760b.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
