@@ -50,3 +50,4 @@ jobs:
          run: |
               ls ErfanGSIs/output
               cat ErfanGSIs/output/*-AB-*.txt
+              ls ErfanGSIs/working
