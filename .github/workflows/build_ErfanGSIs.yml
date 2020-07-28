@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD2005F_EX_A_1.9.5-update-full_1594970123.zip
-  ROM_NAME: Generic:FuntouchOS
-  ZIP_NAME: Funtouch
+  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS661KS/UL-ASUS_I003_1-ASUS-17.0823.2007.25-1.1.9-user.zip
+  ROM_NAME: RogUI
+  ZIP_NAME: RogUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
@@ -44,6 +44,7 @@ jobs:
        - name: Download Stock Rom & Generate GSI
          run: |
               cd ErfanGSIs
+              sudo cp -r roms/9/RogUI roms/10
               sudo ./url2GSI.sh $ROM_URL $ROM_NAME
 
        - name: Print build info
