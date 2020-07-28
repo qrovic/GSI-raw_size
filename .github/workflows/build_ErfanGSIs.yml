@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/20.7.23/miui_ATOM_20.7.23_c11c5e9920_10.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI
+  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD2005F_EX_A_1.9.5-update-full_1594970123.zip
+  ROM_NAME: Generic:FuntouchOS
+  ZIP_NAME: Funtouch
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
