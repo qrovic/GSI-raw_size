@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://doc-14-5c-docs.googleusercontent.com/docs/securesc/oeg6ldbqfscnr0k8apdqsperdpt8rvqc/24qppdapp5ne8557qivfmtjn4bkjlnce/1596015300000/14484232756171817544/14256000017661765473/1sbyavTynhh8bC0IuhZyt52ROSUIOdsHe?e=download&authuser=0&nonce=v327sch5ssc3s&user=14256000017661765473&hash=ia0aqncdb2ip9ovhtmdas304m6ud2nf1
+  ROM_URL: http://tdrive.manofuranium.workers.dev/Zui12.rar
   ROM_NAME: ZUI
   ZIP_NAME: ZUI
   TZ: Asia/Kolkata
