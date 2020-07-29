@@ -15,8 +15,8 @@ on:
     
 env:
   ROM_URL: http://tdrive.manofuranium.workers.dev/ZUI12RUI.zip
-  ROM_NAME: Nubia
-  ZIP_NAME: Nubia
+  ROM_NAME: ZUI
+  ZIP_NAME: ZUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
