@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS661KS/UL-ASUS_I003_1-ASUS-17.0823.2007.25-1.1.9-user.zip
-  ROM_NAME: RogUI
-  ZIP_NAME: RogUI
+  ROM_URL: https://dl.revtechs.me/miui/ROS-MIUI_RedmiNote7_20.7.29_v12-10.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
