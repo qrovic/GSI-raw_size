@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/ZUI12RUI.zip
+  ROM_URL: http://tdrive.manofuranium.workers.dev/Zui12.rar
   ROM_NAME: ZUI
   ZIP_NAME: ZUI
   TZ: Asia/Kolkata
