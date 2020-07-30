@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/Zui12.rar
-  ROM_NAME: ZUI
-  ZIP_NAME: ZUI
+  ROM_URL: http://rom.download.nubia.com/Europe/NX659J/V411/NX659J-update.zip
+  ROM_NAME: Nubia
+  ZIP_NAME: Nubia
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
