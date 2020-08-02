@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://romdownload.nubia.com/%E7%BA%A2%E9%AD%945G/V2.59/NX659J-update.zip
+  ROM_URL: http://romdownload.nubia.com/%E7%BA%A2%E9%AD%943/V3.29/NX629J-update.zip
   ROM_NAME: Nubia
   ZIP_NAME: Nubia
   TZ: Asia/Kolkata
