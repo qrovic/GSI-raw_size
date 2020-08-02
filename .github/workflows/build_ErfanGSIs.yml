@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://otafsg1.realmemobile.com/patch/amazone2/INT/RMX1921EX/RMX1921EX_11.C.06_1060_202007241217/RMX1921EX_11_OTA_1060_all_3in8Z5H1YUlA_0fd01206b19.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: http://tdrive.manofuranium.workers.dev/km_update.zip
+  ROM_NAME: JoyUI
+  ZIP_NAME: JoyUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
