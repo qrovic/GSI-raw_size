@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://romdownload.nubia.com/%E7%BA%A2%E9%AD%943/V3.29/NX629J-update.zip
+  ROM_URL: http://romdownload.nubia.com/%E5%8A%AA%E6%AF%94%E4%BA%9APlay/V2.21/NX651J-update.zip
   ROM_NAME: Nubia
-  ZIP_NAME: Nubia
+  ZIP_NAME: Nubiaplay
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
