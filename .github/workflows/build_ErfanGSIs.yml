@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/km_update.zip
+  ROM_URL: https://s75sas.storage.yandex.net/rdisk/a28dfd0b56940c6bbfb002ebb4cbda3c04b19b76395127348fa4603a4288eaaa/5f269303/oVsbGtah9zGbmlCutxPqHK1YV1F41SWoNtDkUQdCFvzUnyLRqNHC6bT9zSI8Tel3I06Ys0q6TLpmDJ47nXTPrQ==?uid=0&filename=BlackShark%202.zip&disposition=attachment&hash=8D6Dq6loE/zr7gj8X7V0iJUkz2HPGX2Wu9/vy1RulTLsSbzHseIbGpFY%2BnpIi7EMq/J6bpmRyOJonT3VoXnDag%3D%3D%3A/BlackShark%202.zip&limit=0&content_type=application%2Fzip&owner_uid=177535404&fsize=2321744409&hid=20edb373ae93b990033a79c041f1da5c&media_type=compressed&tknv=v2&rtoken=TY4Mk6LVq2EF&force_default=no&ycrid=na-58868f17c43b48f2eb50f2cf909e95e6-downloader14f&ts=5abe258b886c0&s=a14ec916e9b45f89aee0c91bcdec8c7cba07717f6ffa8571152c35bf45cbfe27&pb=U2FsdGVkX1--SvngtMyqGEjeFNsfNE0OJhMRdTDxL1XhW-Z2-B5kWALXRNi6VHB4dsE8nQYjjewficlJoQfExGeHG5Gr36srE_R-eMboYVk
   ROM_NAME: JoyUI
   ZIP_NAME: JoyUI
   TZ: Asia/Kolkata
