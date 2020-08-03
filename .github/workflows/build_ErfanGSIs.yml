@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download2283.mediafire.com/k0i6cjvysjhg/qefcncg1gvkc1ax/Infinix_Note_7_X690_MT6768_V293_200515.zip
-  ROM_NAME: Generic
-  ZIP_NAME: XOS
+  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS660KL/UL-ASUS_I001_1-ASUS-17.0240.2007.27-1.1.204-user.zip
+  ROM_NAME: RogUI
+  ZIP_NAME: RogUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
