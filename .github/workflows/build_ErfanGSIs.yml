@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://asia-sysupwsdl.vivoglobal.com/upgrade/official/officialFiles/PD1955F_EX_A_1.14.3-BWDATA-update-full_1591872035.zip
-  ROM_NAME: Generic:Funtouch
-  ZIP_NAME: Funtouch
+  ROM_URL: http://download2283.mediafire.com/k0i6cjvysjhg/qefcncg1gvkc1ax/Infinix_Note_7_X690_MT6768_V293_200515.zip
+  ROM_NAME: Generic
+  ZIP_NAME: XOS
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
