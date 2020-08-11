@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/V12.0.0.2.QFGINXM/miui_LAVENDERINGlobal_V12.0.0.2.QFGINXM_be29e26ec3_10.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI
+  ROM_URL: https://tdrive.manofuranium.workers.dev/km_update.zip
+  ROM_NAME: JoyUI
+  ZIP_NAME: JoyUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
