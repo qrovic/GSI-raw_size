@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/Arthur-L29%2010.1.0.112(C185E2R3P1)_Firmware_EMUI10.1.0_05016MMP.rar
+  ROM_URL: http://tdrive.manofuranium.workers.dev/Huawei%20Y5%202019%20AMN-LX9%20AMN-L29%20hw%20eea%20HLRCF%20Amman-L29%209.1.0.232(C431E4R1P4)%20Firmware%20EMUI9.1.0%2005016JDT%20[androidhost.ru].zip
   ROM_NAME: Generic
   ZIP_NAME: Generic
   TZ: Asia/Kolkata
